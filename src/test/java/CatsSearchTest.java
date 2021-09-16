@@ -1,5 +1,3 @@
-package org.example;
-
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
