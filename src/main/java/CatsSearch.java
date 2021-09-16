@@ -22,6 +22,11 @@ public class CatsSearch {
         driver.get("https://www.google.com");
     }
 
+    public void close()
+    {
+        driver.close();
+    }
+
     public void setTimeoutInSeconds(int seconds)
     {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));

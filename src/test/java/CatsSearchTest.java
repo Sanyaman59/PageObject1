@@ -15,5 +15,6 @@ public class CatsSearchTest extends TestCase {
         assertTrue(cs.atPage());
         cs.enterText("Cats");
         assertEquals("Cats - Google Search",driver.getTitle());
+        cs.close();
     }
 }

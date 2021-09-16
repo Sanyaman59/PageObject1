@@ -13,5 +13,6 @@ public class Main
         cs.setTimeoutInSeconds(10);
         cs.open();
         cs.enterText("Cats");
+        cs.close();
     }
 }
